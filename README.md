@@ -18,28 +18,9 @@ Every object in scikit-learn follows the same consistent API. Learn this pattern
 | Predictor | `fit`, `predict`, `score` | Makes predictions | `LinearRegression`, `LogisticRegression` |
 | Transformer | `fit`, `transform`, `fit_transform` | Changes the data | `StandardScaler` |
 
-## Repository Structure
-
-```
-sklearn-core-api/
-├── README.md
-├── core_api.ipynb        # Colab-ready notebook
-├── core_api.py           # Same code as a script
-└── requirements.txt
-```
-
-## Quick Start
-
-```bash
-git clone https://github.com/<your-username>/sklearn-core-api.git
-cd sklearn-core-api
-pip install -r requirements.txt
-python core_api.py
-```
-
 Or open the notebook directly in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/sklearn-core-api/blob/main/core_api.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/<your-username>/sklearn-core-api/blob/main/core_api.ipynb](https://colab.research.google.com/drive/1fcx4B9XFHd2YH954_mv7jEO17p4niyMU?usp=sharing))
 
 ## Concepts and Code
 
