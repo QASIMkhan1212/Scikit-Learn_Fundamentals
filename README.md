@@ -1,12 +1,9 @@
-# Scikit-Learn_Fundamentals
-
 # scikit-learn Core API
 
 A beginner-friendly guide to the three building blocks of scikit-learn: **Estimator**, **Predictor** and **Transformer**, with runnable code.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Overview
 
@@ -18,9 +15,28 @@ Every object in scikit-learn follows the same consistent API. Learn this pattern
 | Predictor | `fit`, `predict`, `score` | Makes predictions | `LinearRegression`, `LogisticRegression` |
 | Transformer | `fit`, `transform`, `fit_transform` | Changes the data | `StandardScaler` |
 
-Or open the notebook directly in Google Colab:
+## Repository Structure
 
-[![Open In Colab](https://colab.research.google.com/drive/1fcx4B9XFHd2YH954_mv7jEO17p4niyMU?usp=sharing)
+```
+sklearn-core-api/
+├── README.md
+├── core_api.ipynb        # Colab-ready notebook
+├── core_api.py           # Same code as a script
+└── requirements.txt
+```
+
+## Quick Start
+
+```bash
+git clone https://github.com/QASIMkhan1212/sklearn-core-api.git
+cd sklearn-core-api
+pip install -r requirements.txt
+python core_api.py
+```
+
+Or run it directly in Google Colab (no setup needed):
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fcx4B9XFHd2YH954_mv7jEO17p4niyMU?usp=sharing)
 
 ## Concepts and Code
 
@@ -131,7 +147,3 @@ scikit-learn>=1.2
 
 **Muhammad Qasim Khan**
 GitHub: [QASIMkhan1212](https://github.com/QASIMkhan1212)
-
-## License
-
-This project is licensed under the MIT License.
