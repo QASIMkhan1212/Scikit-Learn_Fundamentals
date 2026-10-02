@@ -20,7 +20,7 @@ Every object in scikit-learn follows the same consistent API. Learn this pattern
 
 Or open the notebook directly in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/<your-username>/sklearn-core-api/blob/main/core_api.ipynb](https://colab.research.google.com/drive/1fcx4B9XFHd2YH954_mv7jEO17p4niyMU?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/drive/1fcx4B9XFHd2YH954_mv7jEO17p4niyMU?usp=sharing)
 
 ## Concepts and Code
 
