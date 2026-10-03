@@ -122,7 +122,9 @@ Fitting on test data lets information from the test set leak into training and g
 
 Preprocessing turns raw data into clean numeric input a model can learn from. Almost every preprocessing tool in scikit-learn is a **transformer**.
 
-![Data Preprocessing in scikit-learn](images/preprocessing-infographic.png)
+Run the Preprocessing notebook directly in Google Colab (no setup needed):
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14E-4Foh178PECLJh_kUdSkXMRs9MnZba)
 
 **Standard order:** Split, Impute, Encode, Scale, Model.
 
